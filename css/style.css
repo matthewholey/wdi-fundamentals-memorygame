@@ -1,0 +1,90 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+header{
+	background-color: #f15b31;
+	color: #ffffff;
+	padding: 30px 20px;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: "Railway", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+	margin: 0;
+}
+nav {
+	background-color: #00a6b3;
+	color: #ffffff;
+	padding: 20px 0;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Railway", sans-serif;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 0 10px;
+	padding: 20px 10px;
+	border-bottom: 2px solid transparent;
+}
+nav a:hover {
+	background-color: #00c7da;
+	border-color: white;
+	text-decoration: underline;
+}
+main{
+	width: 850px;
+	margin: 35px auto;
+}
+h2 {
+	text-transform: uppercase;
+	font-family: "Railway", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+p {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+img{
+	margin: 40px 8px 0 8px;
+}
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0d2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+footer p {
+	font-family: "Railway", sans-serif;
+}
+.copyright {
+	float: left;
+}
+.message {
+	float: right;
+}
+.name {
+	color: #f15b31;
+	font-weight: 700;
+
+}
